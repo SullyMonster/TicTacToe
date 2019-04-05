@@ -1,0 +1,28 @@
+*{
+    font-size: 1.5em;
+    text-align: center;
+}
+body{
+    margin: 0;
+}
+table{
+    margin: 0 auto;
+    border: 0;
+}
+th{
+    border: 15px solid #ff0000;
+    width: 230px;
+    height: 230px;
+}
+tr:first-child th{
+    border-top: 0;
+}
+tr:last-child th{
+    border-bottom: 0;
+}
+th:first-child{
+    border-left: 0;
+}
+th:last-child{
+    border-right: 0;
+}
